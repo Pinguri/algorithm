@@ -1,16 +1,15 @@
 package algorithm;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-class problem {
+class problem5 {
 
 	
 	public static void main(String[] args) {
 		
-		problem P = new problem();
+		problem1 P = new problem1();
 		Scanner sc = new Scanner(System.in);
 		Integer num = sc.nextInt();
 		List<String> strList = new ArrayList<String>();	

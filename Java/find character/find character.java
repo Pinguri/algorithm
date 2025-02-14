@@ -2,30 +2,27 @@ package algorithm;
 
 import java.util.Scanner;
 
-class problem {
+class problem2 {
 
-	public int solution(String str, char t) {
-		int answer=0;
-		
-		for(char a : str.toCharArray()) {
-			if(a == t || a == Character.toUpperCase(t)) {
-				answer++;
-			}
-		}
-		
-		
-		
-		return answer;
-	}
+
 	
 	public static void main(String[] args) {
 		
-		problem P = new problem();
+		problem1 P = new problem1();
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
 		char c = sc.next().charAt(0);
-		
-		int answer = P.solution(str, c);
+
+		int answer=0;
+
+		for(char a : str.toCharArray()) {
+			if(a == c || a == Character.toUpperCase(c)) {
+				answer++;
+			}
+		}
+
+
+
 		System.out.println(answer);
 	}
 }

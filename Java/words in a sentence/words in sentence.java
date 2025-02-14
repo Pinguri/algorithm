@@ -1,9 +1,8 @@
 package algorithm;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-class problem {
+class problem4 {
 
 	public String solution(String str) {
 		String answer ="";
@@ -21,7 +20,7 @@ class problem {
 	
 	public static void main(String[] args) {
 		
-		problem P = new problem();
+		problem1 P = new problem1();
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 
