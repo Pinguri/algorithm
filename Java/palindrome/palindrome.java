@@ -24,6 +24,8 @@ class problem5 {
 			strList.add(tmp);
 			
 		}
+ 
+
 
 		
 		for(int i=0; i<strList.size(); i++) {
